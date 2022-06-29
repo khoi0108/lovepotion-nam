@@ -94,6 +94,11 @@ Hôm nay là buổi hẹn hò thường ngày mà bạn và cô ấy đã lên k
 	case 81:
 		text = @"những bước chân ngày vang và lớn hơn,tiếng bước chân này thật quen thuộc.À là cô ấy,đúng là cô ấy thật rồi.Ngước lên trên nhìn vào đôi mắt quen thuộc có phần tinh nghịch ấy. Và rồi những cuộc trò chuyện rất quen thuộc của cả hai người đã diễn ra"
 	break;
+	case 86:
+	    if global.branch == 2 {
+		text = @"Bạn quay đi và đi một mạch xa khuất từ vị trí cô ấy đang đứng,không một lời từ biệt bạn cắt đứt liên lạc với cô ấy.Tiếp tục cuộc sống mà không có cô ấy bạn cũng không vương vấn gì nhiều."
+		}
+	 break;
 	
 }
 

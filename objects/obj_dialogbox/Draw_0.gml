@@ -134,6 +134,43 @@ switch (global.scene) {
 	case 84:
 		text = "Nghe hơi sáo rỗng nhỉ,thế nhưng có lẽ em vẫn ổn.Ít làm nũng hơn và nghe lời bố mẹ hơn đôi chút. Có lẽ hai chúng ta thật sự đến đây là kết thúc, cảm ơn anh vì quãng thời gian vừa qua.	"   
 	break;
+	case 86:
+		if global.branch == 0 {
+		text = "Cảm ơn em vì đã là 1 phần trong thanh xuân của anh.Dù sau này đi bên cạnh em là 1 người con trai khác hay chúng ta mỗi người đều có những hạnh phúc riêng cho bản thân mình thế nhưng cảm ơn vì tất cả."
+		}
+		if global.branch == 1 {
+	    text = "Thật ra con đường này kết thúc không có nghĩa là ta không được bắt đầu một con đường khác.Thời gian  thiếu em anh mới thấy tim mình vốn chỉ có 1 hình bóng quen thuộc mà thôi."
+		}
+	break;
+	case 86.1:
+		if global.branch == 0 {
+		text = "Cảm ơn anh nhé,dù không thể tiếp tục làm người yêu nhưng em vẫn muốn được làm bạn cùng anh	"
+		}
+		if global.branch == 1 {
+	    text = "Thật ra em cũng đã tự hỏi bản thân rất nhiều về tình cảm mình dành cho anh."
+		}
+	break;
+	case 86.2:
+		if global.branch == 0 {
+		text = "Ừm hãy coi nhau như những người bạn tốt.Hãy liên lạc với anh nếu em cần sự trợ giúp nhé."
+		}
+		if global.branch == 1 {
+	    text = "Chúng ta có thể trao nhau cơ hội làm lại được không nhỉ dưới tư cách 2 người mới yêu?"
+		}
+	break;
+	case 86.3:
+		if global.branch == 0 {
+		text = "Làm bạn tốt nhé!"
+		}
+		if global.branch == 1 {
+	    text = "Ta đâu thể dối lừa con tim mãi được.Cùng yêu thương nhau 1 lần nữa như trước nhé?"
+		}
+	break;
+	case 86.4:
+		if global.branch == 1 {
+	    text = "Chào em dưới tư cách là người yêu em."
+		}
+	break;
 
 }
 

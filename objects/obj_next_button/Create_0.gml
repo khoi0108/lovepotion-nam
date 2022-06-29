@@ -22,8 +22,10 @@ global.scene_data = {}
 // Biến dữ liệu lựa chọn
 global.choice_data = {}
 // Biến mode
-global.mode = 0
+global.mode = 1
 // Biến âm lượng:
 global.music_volume = 0
 // Biến âm lượng:
 global.sound_volume = 100
+// Kết thúc game:
+global.end_game = false
