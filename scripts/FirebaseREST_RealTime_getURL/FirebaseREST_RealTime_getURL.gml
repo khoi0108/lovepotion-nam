@@ -1,4 +1,4 @@
-function FirebaseREST_RealTime_getURL(path,database)
+function FirebaseREST_RealTime_getURL(path, database)
 {
 	var url;
 	if(is_undefined(database))
@@ -6,7 +6,7 @@ function FirebaseREST_RealTime_getURL(path,database)
 	else
 		url = database
 		
-	url = FirebaseRealTime_Path_Join(url,path)
+	url = FirebaseRealTime_Path_Join(url, path)
 	
 	if(asset_get_index("RESTFirebaseAuthentication_GetIdToken") == -1)
 		url += ".json"

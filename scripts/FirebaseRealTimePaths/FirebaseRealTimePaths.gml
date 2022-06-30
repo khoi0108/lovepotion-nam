@@ -8,9 +8,9 @@ function FirebaseRealTime_Path_Join()
 	return path
 }
 
-function FirebaseRealTime_Path_Join_Pair(path0,path1)
+function FirebaseRealTime_Path_Join_Pair(path0, path1)
 {
-	if(!string_count("http",path0))
+	if(!string_count("http", path0))
 		path0 = "/" + path0
 	path0 += "/"
 	
@@ -19,7 +19,7 @@ function FirebaseRealTime_Path_Join_Pair(path0,path1)
 	
 	var path = path0+path1
 	
-	while(string_count("//",path))
+	while(string_count("//", path))
 		path = string_replace(path,"//","/")
 	
 	path = string_replace(path,":/","://")
@@ -27,7 +27,7 @@ function FirebaseRealTime_Path_Join_Pair(path0,path1)
 	return path
 }
 
-function FirebaseRealTime_Path_GetName(path,offset)
+function FirebaseRealTime_Path_GetName(path, offset)
 {
 	var list = FirebaseRealTime_Path_ToList(path)
 	var name = list[|ds_list_size(list)-1-offset]
@@ -43,11 +43,11 @@ function FirebaseRealTime_Path_ToList(path)
 	var str = ""
 	for(var a = 1 ; a <= string_length(path) ; a ++)
 	{
-		var char = string_char_at(path,a)
+		var char = string_char_at(path, a)
 		if(char == "/")
 		{
 			if(str != "")
-				ds_list_add(list,str)
+				ds_list_add(list, str)
 			
 			str = ""
 		}
@@ -56,12 +56,12 @@ function FirebaseRealTime_Path_ToList(path)
 	}
 	
 	if(str != "")
-		ds_list_add(list,str)
+		ds_list_add(list, str)
 	
 	return list
 }
 
-function FirebaseRealTime_Path_Compare(path0,path1) 
+function FirebaseRealTime_Path_Compare(path0, path1) 
 {
 	var list0 = FirebaseRealTime_Path_ToList(path0)
 	var list1 = FirebaseRealTime_Path_ToList(path1)
@@ -82,7 +82,7 @@ function FirebaseRealTime_Path_Compare(path0,path1)
 	return ok
 }
 
-function FirebaseRealTime_Path_Back(path,count)
+function FirebaseRealTime_Path_Back(path, count)
 {
 	var str = ""
 	var list = FirebaseRealTime_Path_ToList(path)

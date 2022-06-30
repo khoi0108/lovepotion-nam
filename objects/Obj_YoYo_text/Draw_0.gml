@@ -7,5 +7,5 @@ draw_set_color(color)
 if(sprite_exists(sprite_index))
 	draw_self()
 
-draw_text(x,y,text)
+draw_text(x,y, text)
 

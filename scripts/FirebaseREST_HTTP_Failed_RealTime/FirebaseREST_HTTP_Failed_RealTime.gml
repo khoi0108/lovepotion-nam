@@ -6,7 +6,7 @@ function FirebaseREST_HTTP_Failed_RealTime()
 		default:
 			
 			var map_error = json_decode(async_load[?"result"])
-			if(ds_exists(map_error,ds_type_map))
+			if(ds_exists(map_error, ds_type_map))
 			{
 				var map = map_error
 				if(ds_map_exists(map,"default"))//Some times this is a list....
@@ -16,7 +16,7 @@ function FirebaseREST_HTTP_Failed_RealTime()
 					else
 					{
 						var list = map[?"default"]
-						if(ds_exists(list,ds_type_list))
+						if(ds_exists(list, ds_type_list))
 						if(ds_list_size(list))
 							map = list[|0]
 						
@@ -30,7 +30,7 @@ function FirebaseREST_HTTP_Failed_RealTime()
 				if(is_string(map[?"error"]))
 					errorMessage = map[?"error"]
 				else
-				if(ds_exists(map[?"error"],ds_type_map))
+				if(ds_exists(map[?"error"], ds_type_map))
 				if(ds_map_exists(map[?"error"],"message"))
 					errorMessage = map[?"error"][?"message"]
 				

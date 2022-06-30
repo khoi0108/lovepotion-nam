@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_text.mp3",
-  "duration": 3.265306,
+  "soundFile": "snd_text.wav",
+  "duration": 0.115011,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

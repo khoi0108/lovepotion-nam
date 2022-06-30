@@ -14,5 +14,5 @@ function FirebaseREST_asyncCall_RealTime()
 	if(!is_undefined(argument[0]))
 		map[?"value"] = argument[0]
 	
-	event_perform_async(ev_async_social,map)
+	event_perform_async(ev_async_social, map)
 }

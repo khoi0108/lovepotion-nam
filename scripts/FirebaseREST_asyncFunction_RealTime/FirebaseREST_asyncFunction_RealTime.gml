@@ -1,6 +1,6 @@
-function FirebaseREST_asyncFunction_RealTime(event,obj,url,method_,header_json,body)
+function FirebaseREST_asyncFunction_RealTime(event, obj, url, method_, header_json, body)
 {
-	var ins = instance_create_depth(0,0,0,obj);
+	var ins = instance_create_depth(0,0,0, obj);
 	ins.event = event
 	ins.url = url
 	ins.method_ = method_

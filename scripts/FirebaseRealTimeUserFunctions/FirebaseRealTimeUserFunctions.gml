@@ -34,7 +34,7 @@ function Firebase_RealTime_builder(database) constructor
 	
 	static Child = function(child_path)
 	{
-		_path = FirebaseRealTime_Path_Join(_path,child_path)
+		_path = FirebaseRealTime_Path_Join(_path, child_path)
 		return self
 	}
 	
@@ -86,7 +86,7 @@ function Firebase_RealTime_builder(database) constructor
 		return self
     }
 	
-	//static Limit = function(LimitKind,LimitValue)
+	//static Limit = function(LimitKind, limitValue)
     //{
 	//	_LimitKind = LimitKind
 	//	_LimitValue = LimitValue
@@ -130,7 +130,7 @@ function Firebase_RealTime_builder(database) constructor
 			var value_ = json_encode(map)
 			ds_map_destroy(map)
 		
-			if(!string_count("default",value) and string_count("default",value_))
+			if(!string_count("default", value) and string_count("default", value_))
 			{
 				ok = true
 				value = "\"" + value + "\""
@@ -163,7 +163,7 @@ function Firebase_RealTime_builder(database) constructor
 		_action = "Read"
 		if(FirebaseRealTime_Library_useSDK)
 			return FirebaseRealTime_SDK(json_stringify(self))
-		return FirebaseRealTime_List_Builder("FirebaseRealTime_Read",Obj_FirebaseREST_Listener_Once_RealTime,_path,_OrderBy,_EqualTo,_StartValue,_EndValue,_LimitKind,_LimitValue,_database)
+		return FirebaseRealTime_List_Builder("FirebaseRealTime_Read", obj_FirebaseREST_Listener_Once_RealTime,_path,_OrderBy,_EqualTo,_StartValue,_EndValue,_LimitKind,_LimitValue,_database)
     }
 	
     static Listener = function()
@@ -171,7 +171,7 @@ function Firebase_RealTime_builder(database) constructor
 		_action = "Listener"
 		if(FirebaseRealTime_Library_useSDK)
 			return FirebaseRealTime_SDK(json_stringify(self))
-		return FirebaseRealTime_List_Builder("FirebaseRealTime_Listener",Obj_FirebaseREST_Listener_On_RealTime,_path,_OrderBy,_EqualTo,_StartValue,_EndValue,_LimitKind,_LimitValue,_database)
+		return FirebaseRealTime_List_Builder("FirebaseRealTime_Listener", obj_FirebaseREST_Listener_On_RealTime,_path,_OrderBy,_EqualTo,_StartValue,_EndValue,_LimitKind,_LimitValue,_database)
     }
 
     static Exists = function()
@@ -227,7 +227,7 @@ function Firebase_RealTime_builder(database) constructor
 		if(FirebaseRealTime_Library_useSDK)
 			return FirebaseRealTime_SDK(json_stringify(self))
 		with(Obj_FirebaseREST_Listener_RealTime)
-		if(string_count("Listener",event))
+		if(string_count("Listener", event))
 			instance_destroy()
     }
 }

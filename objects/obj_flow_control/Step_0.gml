@@ -46,7 +46,7 @@ if (global.scene_change == true) {
 	// Set background
 	global.bg = bg_select(global.scene, bg_config)	
     // Set phòng
-    if is_between(global.bg, 0, 4) {
+    if is_between(global.bg, 0, 3) {
 		 room_goto(layout_1)
     }
     else {

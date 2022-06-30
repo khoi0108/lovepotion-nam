@@ -5,4 +5,4 @@ draw_set_color(color)
 
 draw_self()
 
-draw_text_ext(bbox_left+10,bbox_top+10,text,font_get_size(font),sprite_width-20)
+draw_text_ext(bbox_left+10, bbox_top+10, text, font_get_size(font), sprite_width-20)

@@ -8,6 +8,6 @@ function is_between(x, a, b)
 		return (x >= a)
 	}
 	else {
-	return (x >= min(a,b) and x <= max(a,b))
+	return (x >= min(a, b) and x <= max(a, b))
 	}
 }

@@ -1,5 +1,5 @@
 
-function FirebaseRealTime_List_Builder(event,obj,path,orderBy,equalTo,startValue,endValue,limitType,limitValue,database)
+function FirebaseRealTime_List_Builder(event, obj, path, orderBy, equalTo, startValue, endValue, limitType, limitValue, database)
 {
 	var builder_orderType = ""
 	var builder_orderKey = ""
@@ -24,13 +24,13 @@ function FirebaseRealTime_List_Builder(event,obj,path,orderBy,equalTo,startValue
 	
 	var filter_array = []
 	if(!is_undefined(equalTo))
-		array_push(filter_array,Firebase_Filter_EqualTo,equalTo)
+		array_push(filter_array, firebase_Filter_EqualTo, equalTo)
 	
 	if(!is_undefined(startValue))
-		array_push(filter_array,Firebase_Filter_StartAt,startValue)
+		array_push(filter_array, firebase_Filter_StartAt, startValue)
 		
 	if(!is_undefined(endValue))
-		array_push(filter_array,Firebase_Filter_EndAt,endValue)
+		array_push(filter_array, firebase_Filter_EndAt, endValue)
 	
 	if(array_length(filter_array) > 0)
 	{
@@ -53,5 +53,5 @@ function FirebaseRealTime_List_Builder(event,obj,path,orderBy,equalTo,startValue
 		builder_limitValue = limitValue
 	}
 	
-	return FirebaseREST_Database_ListResquest_Builder(event,obj,builder_orderType,builder_orderKey,builder_filterType,builder_filterKey,builder_filterType2,builder_filterKey2,builder_limitType,builder_limitValue,path,database)
+	return FirebaseREST_Database_ListResquest_Builder(event, obj, builder_orderType, builder_orderKey, builder_filterType, builder_filterKey, builder_filterType2, builder_filterKey2, builder_limitType, builder_limitValue, path, database)
 }

@@ -1,6 +1,6 @@
-function FirebaseREST_Database_ListResquest_Builder(event,obj,orderType,orderKey,filterType,filterKey,filterType2,filterKey2,limitType,limitValue,path,database)
+function FirebaseREST_Database_ListResquest_Builder(event, obj, orderType, orderKey, filterType, filterKey, filterType2, filterKey2, limitType, limitValue, path, database)
 {
-	var url = FirebaseREST_RealTime_getURL(path,database)
+	var url = FirebaseREST_RealTime_getURL(path, database)
 
 	//url__encode() solve problems on iOS more info:
 	//https://help.yoyogames.com/hc/en-us/articles/216754718-Encoding-URLs

@@ -8,3 +8,10 @@ if keyboard_check(vk_enter) or (mouse_check_button(mb_left) and is_touching_mous
 	alarm[0] = room_speed*0.5
 	}
 }
+
+if position_meeting(mouse_x, mouse_y, obj_next_button) {
+	sprite_index = spr_next_glow
+}
+else {
+	sprite_index = spr_next
+}

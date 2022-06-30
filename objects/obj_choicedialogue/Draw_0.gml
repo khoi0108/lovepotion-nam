@@ -7,7 +7,7 @@ draw_set_halign(fa_left)
 // Set dòng chữ cho mỗi cảnh
 switch (global.scene) {
 	case 7:
-		text = "Bạn sẽ làm gì trong tình huống này"
+		text = "Bạn sẽ làm gì trong tình huống này?"
 	break;
 	case 10:
 		text = "Bạn sẽ nói gì trong tình huống này?"
@@ -22,7 +22,7 @@ switch (global.scene) {
 		text = "Bạn thích một cô gái có phong cách thế nào?"
 	break;
 	case 27:
-		text = "Sau đó bạn tất bật chuẩn bị quần áo ,giày dép và thậm chí là 1 chút quà nho nhỏ cho cô ấy. Chỉ còn 2 ngày nữa là tới cuộc hẹn ,bạn quyết định sẽ lựa chọn"
+		text = "Sau đó bạn tất bật chuẩn bị quần áo, giày dép và thậm chí là một chút quà nho nhỏ cho cô ấy. Chỉ còn 2 ngày nữa là tới cuộc hẹn, bạn quyết định sẽ lựa chọn"
 	break;
 	case 29:
 		text = "Liệu cô ấy có thích phong cách gì nhỉ?"
@@ -34,7 +34,7 @@ switch (global.scene) {
 		text = "Bạn sẽ nói gì trong tình huống này?"
 	break;
 	case 48:
-		text = "Khi thấy bạn nữ khóc, bạn sẽ:"
+		text = "Khi thấy bạn nữ khóc, bạn sẽ"
 	break;
 	case 55:
 		text = "Nếu được tỏ tình bất ngờ bạn sẽ làm gì?"
@@ -75,13 +75,13 @@ if global.vis[0] == 1 {
 	if global.mode == 1{
 	     variable_struct_set(global.choice_data, "dialogue", text)
 	     global.can_continue = false
-         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.5,30,undefined, 25, (1-mar_x*2)*sprite_width)
+         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.3,30, snd_text, 25, (1-mar_x*2)*sprite_width)
 	}
 	else {
 		text = variable_struct_get(global.choice_data, "dialogue")
 		// Viết chữ
         global.can_continue = false
-        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.5,30,undefined, 25, (1-mar_x*2)*sprite_width)
+        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.3,30, snd_text, 25, (1-mar_x*2)*sprite_width)
 	}
 }
 
