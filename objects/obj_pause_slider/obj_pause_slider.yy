@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Pausing",
-    "path": "folders/Objects/functions/Pausing.yy",
+    "name": "functions",
+    "path": "folders/Objects/functions.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pause_slider",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "functions",
-    "path": "folders/Sprites/functions.yy",
+    "name": "Titlescreen",
+    "path": "folders/Sprites/functions/Titlescreen.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_start",

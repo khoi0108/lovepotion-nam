@@ -13,7 +13,7 @@ switch (global.scene) {
 	    text = @"Sau đó bạn liền đi tới khu nhà đựng dụng cụ để phụ giúp. Cùng tiến tới khu nhà đó chính là (tên nữ chính) - hậu bối của bạn, người mà bạn đã có khoảng thời gian làm việc khá lâu và cũng khá thân thiết."
 	break;
 	case 8:
-		text = @"2 bạn sau đó cùng giải quyết được những vấn đề liên quan tới đống hàng, trời cũng sập tối và gió trở nên hiu hắt hơn. Cô ấy và bạn cùng ngồi lại tại 1 chỗ chỉ có cả"
+		text = @"Hai bạn sau đó cùng giải quyết được những vấn đề liên quan tới đống hàng, trời cũng sập tối và gió trở nên hiu hắt hơn. Cô ấy và bạn cùng ngồi lại tại một chỗ vắng vẻ chỉ có hai người."
 	break;
 	case 11:
 		text = @"Do không biết làm gì nên bạn đã quyết định đi mua nước uống cho cả hai ở cây bán nước, rồi cùng đem về cho cả hai người uống. Những cuộc trò chuyện và tán gẫu giữa cả hai cứ như vậy mà diễn ra."
@@ -28,7 +28,7 @@ switch (global.scene) {
 		text = @"Sau buổi trò chuyện vào hôm bưng bê đồ đạc ấy, bạn và tên nữ chính đã có những cảm xúc và sự thấu hiểu nhau hơn. Bây giờ còn 3 ngày nữa là tới ngày mà bạn và cô ấy cùng hẹn nhau xem phim. Bạn đang tìm hiểu một số thông tin trên mạng về cách để trở nên thật tuyệt trong mắt đối phương. Bạn vô tình thấy rằng phong cách trên mạng lại quá là khác biệt so với phong cách hiện tại của bạn"
 	break;
 	case 28:
-		text = @"Tiếp đó chỉ còn 1 ngày cuối cùng để chuẩn bị cho ngày đi xem phim của 2 bạn, bạn quyết định sẽ hỏi ý kiến của bạn bè về trang phục và sự chuẩn bị, đa số đều khen bạn rất bảnh trai nhưng bạn thì thấy chưa ưng lắm. Liệu bạn cảm thấy thế nào?"
+		text = @"Tiếp đó chỉ còn 1 ngày cuối cùng để chuẩn bị cho ngày đi xem phim của hai bạn, bạn quyết định sẽ hỏi ý kiến của bạn bè về trang phục và sự chuẩn bị, đa số đều khen bạn rất bảnh trai nhưng bạn thì thấy chưa ưng lắm. Liệu bạn cảm thấy thế nào?"
 	break;
 	case 30:
 	    if (global.branch == 0) {
