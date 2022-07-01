@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "functions",
-    "path": "folders/Objects/functions.yy",
+    "name": "Titlescreen",
+    "path": "folders/Objects/functions/Titlescreen.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_logo",

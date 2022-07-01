@@ -1,3 +1,6 @@
+if global.vis[1] == 1 {
+create_shadow_layered(self, 1.07, 0.1, 0.05)
+}
 draw_self()
 // Chỉnh phông, màu, cách sắp xếp của chữ
 draw_set_font(Times_New_Roman)
@@ -76,7 +79,7 @@ if global.vis[0] == 1 {
 	if global.mode == 1{
 	     variable_struct_set(global.choice_data, "choice1", text)
 	     global.can_continue = false
-         draw_text_ext(x-(1/2 - mar_x)*sprite_width, y, text,25,(1-mar_x*2)*sprite_width)
+         draw_text_ext(x-(1/2 - mar_x)*sprite_width, y, text,25,(1-mar_x*2)*sprite_width-50)
 	}
 	else {
 		text = variable_struct_get(global.choice_data, "choice1")

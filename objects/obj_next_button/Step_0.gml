@@ -1,11 +1,13 @@
-if keyboard_check(vk_enter) or (mouse_check_button(mb_left) and is_touching_mouse(self)) {
+if keyboard_check_pressed(vk_enter) or (mouse_check_button_pressed(mb_left) and is_touching_mouse(self)) {
 	 if global.id == "" {
 	     id_error = 1
      }
 	else {
 	id_error = 0
 	listener_id = FirebaseRealTime().Path("id/"+global.id).Exists()
+	audio_play_sound(snd_button, 1, 0)
 	alarm[0] = room_speed*0.5
+
 	}
 }
 

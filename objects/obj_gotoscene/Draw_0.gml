@@ -5,4 +5,4 @@ draw_set_font(Times_New_Roman)
 draw_set_halign(fa_middle)
 draw_set_valign(fa_middle)
 
-draw_text(x, y, global.scene_choice);
+draw_text(x, y, scene_choice);

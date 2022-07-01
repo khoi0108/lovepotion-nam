@@ -1,3 +1,6 @@
+if global.vis[6] == 1 {
+create_shadow_layered(self, 1.07, 0.1, 0.05)
+}
 draw_self()
 // Chỉnh phông, màu, cách sắp xếp của chữ
 draw_set_font(Times_New_Roman)

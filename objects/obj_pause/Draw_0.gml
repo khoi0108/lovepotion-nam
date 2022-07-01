@@ -1,3 +1,5 @@
+// Vẽ bóng
+create_shadow_layered(self, 1.15, 0.2, 0.1)
 draw_self()
 if global.pause == true {
 	draw_sprite_ext(spr_pause,-1, x_mid, y_mid, 0.413, 0.413, 0, c_white, 1)

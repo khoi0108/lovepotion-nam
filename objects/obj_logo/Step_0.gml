@@ -12,13 +12,13 @@ if wait = 0 {
 			sprite_index = spr_logo
 			break;
             case 2: 
-			wait = 30
+			wait = 60
 			break;
 			case 3: 
 			sprite_index = spr_logoblurry
 			break;
 			case 4: 
-			wait = 30
+			wait = 60
 			break;
       }
   }  
@@ -28,7 +28,7 @@ if wait = 0 {
   }
   
 // Quay khung
-rot += 0.1
+rot += 0.3
 alpha += 0.01*mul
 if alpha >= 1 {
 	mul = -1

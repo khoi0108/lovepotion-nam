@@ -2,3 +2,4 @@
 text = ""
 visible = global.vis[5]
 mar_x = 1/20
+

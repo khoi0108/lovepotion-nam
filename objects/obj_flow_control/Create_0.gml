@@ -64,9 +64,9 @@ if global.vis[0] == 1 {
 // Thêm các dữ liệu cảnh
 variable_struct_set(global.data, string(global.scene)+ "_" + string(global.branch), global.scene_data)
 //export_json("data.json", global.data, json_stringify)
-}	
+}
 
-if global.mode == 0 {
+/* if global.mode == 0 {
 	if global.scene == 0 {
 	global.scene_data = variable_struct_get(global.data,  "0_0")
 	}
@@ -74,5 +74,4 @@ if global.mode == 0 {
 	if global.vis[0] == 1 {
 		global.choice_data = variable_struct_get(global.scene_data, "choice")
 	}
-}
-
+}*/

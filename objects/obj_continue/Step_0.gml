@@ -1,6 +1,7 @@
 if keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space) {
 	// && global.can_continue == true
     if (global.vis[0] == 0 )  {
+		audio_play_sound(snd_button, 1, 0)
 	    global.scene_change = true
 }
 }

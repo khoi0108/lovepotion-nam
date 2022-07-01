@@ -1,5 +1,8 @@
+// Vẽ bóng
+if global.vis[3] == 1 {
+create_shadow_layered(self, 1.07, 0.1, 0.05)
+}
 draw_self()
-
 // Chỉnh phông, màu, cách sắp xếp của chữ
 draw_set_font(Times_New_Roman)
 draw_set_color(c_black)
@@ -178,12 +181,12 @@ if global.vis[3] == 1 {
 	if global.mode == 1{
 	     variable_struct_set(global.scene_data, "dialogue", text)
 	     global.can_continue = false
-         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y, string_replace(text, "*", global.id), 0.3,30, snd_text, 25, (1-mar_x*2)*sprite_width)
+         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y, string_replace(text, "*", global.id), 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 	}
 	else {
 		text = variable_struct_get(global.scene_data, "dialogue")
 		// Viết chữ
         global.can_continue = false
-        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y, string_replace(text, "*", global.id), 0.3,30, snd_text, 25, (1-mar_x*2)*sprite_width)
+        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y, string_replace(text, "*", global.id), 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 	}
 }

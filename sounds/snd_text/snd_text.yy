@@ -14,8 +14,8 @@
   "soundFile": "snd_text.wav",
   "duration": 0.115011,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Effects",
+    "path": "folders/Sounds/Effects.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_text",

@@ -2,6 +2,13 @@
 if check_clicked(self, mb_left) {
 	alarm[0] = room_speed * 0.5
 }
+if is_touching_mouse(obj_pause) {
+	sprite_index = spr_pause_button_hover
+}
+else {
+	sprite_index = spr_pause_button
+}
+	
 
 if global.pause == true {
    // Tắt chức năng tiếp tục

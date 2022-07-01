@@ -1,3 +1,6 @@
+if global.vis[2] == 1 {
+create_shadow_layered(self, 1.06, 0.1, 0.05)
+}
 draw_self()
 // Chỉnh phông, màu, cách sắp xếp của chữ
 draw_set_font(Times_New_Roman)
@@ -75,13 +78,13 @@ if global.vis[0] == 1 {
 	if global.mode == 1{
 	     variable_struct_set(global.choice_data, "dialogue", text)
 	     global.can_continue = false
-         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.3,30, snd_text, 25, (1-mar_x*2)*sprite_width)
+         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 	}
 	else {
 		text = variable_struct_get(global.choice_data, "dialogue")
 		// Viết chữ
         global.can_continue = false
-        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.3,30, snd_text, 25, (1-mar_x*2)*sprite_width)
+        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Times_New_Roman)*0.4, text, 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 	}
 }
 

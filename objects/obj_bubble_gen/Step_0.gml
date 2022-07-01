@@ -9,7 +9,9 @@ if wait = 0 {
 	  
 	  switch state_code {
             case 1:
-		    instance_create_layer(random_range(0.1,20.38)*50 , y, "Instances", obj_bubble)
+		    for (i=0 ; i < sim_gen; i++) {
+			      instance_create_layer(x , y, "Instances", obj_bubble)
+			}
 			break;
             case 2: 
 			wait = gen_rate

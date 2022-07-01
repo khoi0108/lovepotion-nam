@@ -6,10 +6,10 @@ visible = global.vis[4]
 
 switch (global.scene) {
 	case 1:
-	    spr= spr_banhocA
+	    spr= f_banhocA
 	break;
 	case 2:
-	    spr= spr_banhocB
+	    spr= m_banhocB
 	break;
 	case 4:
 	    spr= f_normal
@@ -130,6 +130,21 @@ switch (global.scene) {
 	break;
 	case 84:
 	    spr= f_judgmental
+	break;
+	case 86:
+	    spr= m_talking
+	break;
+	case 86.1:
+	    spr = f_normal
+	break;
+	case 86.2:
+	    spr = m_talking
+	break;
+	case 86.3:
+	    spr = f_normal
+	break;
+	case 86.4:
+	    spr = m_talking
 	break;
 	}
 

@@ -11,8 +11,6 @@ global.extra_scene = false
 global.branch = 0
 // Biến id phòng để xác định sẽ đi đến phòng nào sau mỗi cảnh
 global.bg = 0
-// Biến chọn phòng cho obj_gotoscene
-global.scene_choice = ""
 // Biến để xác định xem obj nào sẽ visible trong các cảnh
 global.vis = []
 // Biến dữ liệu
@@ -28,6 +26,8 @@ global.music_volume = 25
 // Biến âm lượng:
 global.sound_volume = 25
 // Chỉnh âm thanh
-
+global.effect = snd_text
+// Chỉnh nhạc nền
+global.theme = snd_maintheme
 // Kết thúc game:
 global.end_game = false

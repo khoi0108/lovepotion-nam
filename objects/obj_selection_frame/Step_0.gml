@@ -32,5 +32,11 @@ switch(global.branch) {
 }
 
 if keyboard_check_pressed(vk_enter) {
-	global.scene_change = true
+	audio_play_sound(snd_option, 1, 0)
+	alarm[0] = room_speed*1
+	select_animation = 1
+}
+
+if select_animation == 1 {
+	selected_choice.sprite_index = spr_choice_selected
 }
