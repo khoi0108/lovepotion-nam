@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_dialogue",
-    "path": "sprites/spr_dialogue/spr_dialogue.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
     "path": "folders/Objects/gameplay/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dialogbox",
+  "name": "obj_nametag",
   "tags": [],
   "resourceType": "GMObject",
 }

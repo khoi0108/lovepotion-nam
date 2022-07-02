@@ -3,7 +3,7 @@ create_shadow_layered(self, 1.07, 0.1, 0.05)
 }
 draw_self()
 // Chỉnh phông, màu, cách sắp xếp của chữ
-draw_set_font(Times_New_Roman)
+draw_set_font(Nunito_Sans_Semibold)
 draw_set_color(c_black)
 draw_set_valign(fa_middle)
 draw_set_halign(fa_left)

@@ -7,7 +7,7 @@ create_shadow_layered(self, 1.07, 0.1, 0.05)
 // Vẽ obj
 draw_self()
 // Chỉnh phông, màu, cách sắp xếp của chữ
-draw_set_font(Times_New_Roman)
+draw_set_font(Nunito_Sans_Semibold)
 draw_set_color(c_black)
 draw_set_valign(fa_middle)
 draw_set_halign(fa_left)
@@ -114,13 +114,13 @@ if global.vis[5] == 1 {
 	      variable_struct_set(global.scene_data, "textbox", text)
 	      // Viết chữ
           global.can_continue = false
-          draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Times_New_Roman)*0.4, text, 0.2,30, global.effect, 25, (1-mar_x*2)*sprite_width)
+          draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Nunito_Sans_Semibold)*0.4, text, 0.4,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 	}
 	else {
 		text = variable_struct_get(global.scene_data, "textbox")
 		// Viết chữ
         global.can_continue = false
-        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Times_New_Roman)*0.4, text, 0.2,30, global.effect, 25, (1-mar_x*2)*sprite_width)
+        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Nunito_Sans_Semibold)*0.4, text, 0.4,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 	} 
 }
 

@@ -1,3 +1,3 @@
 alarm = 0
 select_animation = 0
-global.scene_change = true
+selected_choice.alarm[0] = room_speed*0.1

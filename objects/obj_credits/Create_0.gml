@@ -1,7 +1,7 @@
 lines = [
 "b_A product by Triott da Project",
 "b_Game Developer",
-"n_Đức Minh",
+"n_Đức Minh (lead)",
 "n_Tuấn Nghĩa",
 "n_Trọng Khôi",
 "n_Lê Minh",
