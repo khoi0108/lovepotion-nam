@@ -1,5 +1,5 @@
 if keyboard_check_pressed(vk_up) {
-    if global.branch == 0 {
+    if global.branch <= 0 {
 		global.branch += max_choice
 	}
 	else {
@@ -8,7 +8,7 @@ if keyboard_check_pressed(vk_up) {
 }
 
 if keyboard_check_pressed(vk_down) {
-    if global.branch == max_choice {
+    if global.branch >= max_choice {
 		global.branch -= max_choice
 	}
 	else {

@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"obj_choice4","path":"objects/obj_choice4/obj_choice4.yy",},"order":3,},
     {"id":{"name":"Obj_FirebaseRealTime_List_Push","path":"objects/Obj_FirebaseRealTime_List_Push/Obj_FirebaseRealTime_List_Push.yy",},"order":0,},
     {"id":{"name":"m_normal","path":"sprites/m_normal/m_normal.yy",},"order":0,},
     {"id":{"name":"spr_buoichieu","path":"sprites/spr_buoichieu/spr_buoichieu.yy",},"order":3,},
@@ -28,6 +27,7 @@
     {"id":{"name":"obj_next_button","path":"objects/obj_next_button/obj_next_button.yy",},"order":3,},
     {"id":{"name":"Obj_FirebaseREST_Listener_On_RealTime","path":"objects/Obj_FirebaseREST_Listener_On_RealTime/Obj_FirebaseREST_Listener_On_RealTime.yy",},"order":0,},
     {"id":{"name":"Obj_FirebaseRealTime_Set_String","path":"objects/Obj_FirebaseRealTime_Set_String/Obj_FirebaseRealTime_Set_String.yy",},"order":13,},
+    {"id":{"name":"obj_choice4","path":"objects/obj_choice4/obj_choice4.yy",},"order":6,},
     {"id":{"name":"obj_sound_control","path":"objects/obj_sound_control/obj_sound_control.yy",},"order":4,},
     {"id":{"name":"obj_pause_slider","path":"objects/obj_pause_slider/obj_pause_slider.yy",},"order":3,},
     {"id":{"name":"spr_titlescreen","path":"sprites/spr_titlescreen/spr_titlescreen.yy",},"order":8,},
