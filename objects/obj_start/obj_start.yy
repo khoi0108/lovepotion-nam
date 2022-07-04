@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game progression",
-    "path": "folders/Objects/functions/Game progression.yy",
+    "name": "Titlescreen",
+    "path": "folders/Objects/functions/Titlescreen.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_start",

@@ -1,2 +1,2 @@
-create_shadow_layered(self, 1.10, 0.1, 0.1)
+create_shadow_layered(self, 1.13, 0.2, 0.1)
 draw_self()

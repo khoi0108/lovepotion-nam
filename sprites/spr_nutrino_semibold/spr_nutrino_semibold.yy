@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "functions",
-    "path": "folders/Sprites/functions.yy",
+    "name": "pausing",
+    "path": "folders/Sprites/functions/pausing.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_nutrino_semibold",

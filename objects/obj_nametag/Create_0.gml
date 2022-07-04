@@ -11,9 +11,9 @@ switch(obj_people.sprite_index) {
 	break;
 	default:
 	if str_split(sprite_get_name(obj_people.sprite_index), "_")[0] == "m" {
-		text = string(global.id)
+		text = global.id
 	}
 	if str_split(sprite_get_name(obj_people.sprite_index), "_")[0] == "f" {
-		text = "Nữ chính"
+		text = global.id2
 	}
 }

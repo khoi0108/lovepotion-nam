@@ -10,3 +10,5 @@ y_mid = room_height/2
 global.pause = false
 // Lưu trạng thái game
 global.state = [global.scene, global.can_continue]
+// Scale 
+scale = 0

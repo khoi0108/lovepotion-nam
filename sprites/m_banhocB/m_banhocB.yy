@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": -450,
-    "yorigin": 225,
+    "yorigin": 100,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"m_banhocB","path":"sprites/m_banhocB/m_banhocB.yy",},

@@ -1,1 +1,2 @@
-// Bar để kéo
+// Biến kích thước
+scale = 0

@@ -1,5 +1,7 @@
 alarm = 0// Các nút chức năng
 if global.pause == false {
+// Cỡ
+scale = 0
 audio_play_sound(snd_button, 1, 0)
 continue_button = instance_create_depth(x_mid, y_mid- 50, -101, obj_pause_continue)
 exit_button = instance_create_depth(x_mid, y_mid- 50, -101, obj_pause_exit)

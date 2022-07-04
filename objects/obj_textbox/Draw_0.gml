@@ -17,7 +17,7 @@ switch (global.scene) {
 	    text = @"Hôm nay là một ngày trời quang mây tạnh trường của bạn đã quyết định tận dụng ngày đẹp trời này để làm một buổi tổng duyệt cho vũ hội sắp tới. Với trách nhiệm là 1 đàn anh lớn trong trường thì bạn đã tới để sắp xếp và chuẩn bị cho buổi vũ hội lần này. Công việc chỉ là bưng bê đồ và bạn thì cũng chạy qua chạy lại khá nhiều chỗ phục vụ cho công tác chuẩn bị."
 	break;
 	case 3:
-	    text = @"Sau đó bạn liền đi tới khu nhà đựng dụng cụ để phụ giúp. Cùng tiến tới khu nhà đó chính là (tên nữ chính) - hậu bối của bạn, người mà bạn đã có khoảng thời gian làm việc khá lâu và cũng khá thân thiết."
+	    text = @"Sau đó bạn liền đi tới khu nhà đựng dụng cụ để phụ giúp. Cùng tiến tới khu nhà đó chính là # - hậu bối của bạn, người mà bạn đã có khoảng thời gian làm việc khá lâu và cũng khá thân thiết."
 	break;
 	case 8:
 		text = @"Hai bạn sau đó cùng giải quyết được những vấn đề liên quan tới đống hàng, trời cũng sập tối và gió trở nên hiu hắt hơn. Cô ấy và bạn cùng ngồi lại tại một chỗ vắng vẻ chỉ có hai người."
@@ -26,13 +26,13 @@ switch (global.scene) {
 		text = @"Do không biết làm gì nên bạn đã quyết định đi mua nước uống cho cả hai ở cây bán nước, rồi cùng đem về cho cả hai người uống. Những cuộc trò chuyện và tán gẫu giữa cả hai cứ như vậy mà diễn ra."
 	break;
 	case 18:
-		text = @"Sau cuộc tán gẫu ngắn đó, mọi người cũng dần thưa và về hết. Chỉ còn một số người ở lại và bạn cùng (nữ chính)"
+		text = @"Sau cuộc tán gẫu ngắn đó, mọi người cũng dần thưa và về hết. Chỉ còn một số người ở lại và bạn cùng #"
 	break;
 	case 23:
 		text = @"Sau đó cả hai chào tạm biệt và ngày đi xem phim cũng tới gần"
 	break;
 	case 25:
-		text = @"Sau buổi trò chuyện vào hôm bưng bê đồ đạc ấy, bạn và tên nữ chính đã có những cảm xúc và sự thấu hiểu nhau hơn. Bây giờ còn 3 ngày nữa là tới ngày mà bạn và cô ấy cùng hẹn nhau xem phim. Bạn đang tìm hiểu một số thông tin trên mạng về cách để trở nên thật tuyệt trong mắt đối phương. Bạn vô tình thấy rằng phong cách trên mạng lại quá là khác biệt so với phong cách hiện tại của bạn"
+		text = @"Sau buổi trò chuyện vào hôm bưng bê đồ đạc ấy, bạn và # đã có những cảm xúc và sự thấu hiểu nhau hơn. Bây giờ còn 3 ngày nữa là tới ngày mà bạn và cô ấy cùng hẹn nhau xem phim. Bạn đang tìm hiểu một số thông tin trên mạng về cách để trở nên thật tuyệt trong mắt đối phương. Bạn vô tình thấy rằng phong cách trên mạng lại quá là khác biệt so với phong cách hiện tại của bạn"
 	break;
 	case 28:
 		text = @"Tiếp đó chỉ còn 1 ngày cuối cùng để chuẩn bị cho ngày đi xem phim của hai bạn, bạn quyết định sẽ hỏi ý kiến của bạn bè về trang phục và sự chuẩn bị, đa số đều khen bạn rất bảnh trai nhưng bạn thì thấy chưa ưng lắm. Liệu bạn cảm thấy thế nào?"
@@ -50,7 +50,7 @@ switch (global.scene) {
 		text = @"Và ngày ấy cuối cùng đến, sau nhiều giờ đồng hồ tất bật chuẩn bị cho ngày hẹn hôm ấy. Hai bạn hẹn gặp nhau tại trường."
 	break;
 	case 32:
-		text = @"Công việc ở trường diễn ra khá muộn, do là ngày trước khi nghỉ lễ. Bạn tan trường lúc 5h và bộ phim thì diễn ra vào lúc 5h15. Bạn gặp (tên nữ chính) rồi bạn đèo cô ấy đi tới thẳng rạp xem phim"
+		text = @"Công việc ở trường diễn ra khá muộn, do là ngày trước khi nghỉ lễ. Bạn tan trường lúc 5h và bộ phim thì diễn ra vào lúc 5h15. Bạn gặp # rồi bạn đèo cô ấy đi tới thẳng rạp xem phim"
 	break;
 	case 39:
 		text = @"cả hai bạn vừa tới rạp chiếu phim là lúc bộ phim đã được bắt đầu"
@@ -62,7 +62,7 @@ switch (global.scene) {
 		text = @"Bộ phim đã lên tới tình tiết cao trào, phân cảnh Doctor Strange bộc lộ ra những tâm tư và suy nghĩ của mình đã làm nhiều khán giả phải khóc nức nở “Anh yêu em ở mọi vũ trụ nhưng chưa có vũ trụ nào anh có được em”"
 	break;
 	case 47:
-		text = @"Nữ chính bắt đầu sụt sịt và khóc nấc lên"
+		text = @"# bắt đầu sụt sịt và khóc nấc lên"
 	break;
 	case 49:
 		text = @"Sau khi cô ấy ngừng khóc thì cũng là lúc hết phim, bạn cùng cô ấy ra về. Trong lúc ra về thì cô ấy có quay lại nhìn bạn"
@@ -114,7 +114,15 @@ if global.vis[5] == 1 {
 	      variable_struct_set(global.scene_data, "textbox", text)
 	      // Viết chữ
           global.can_continue = false
+          text = string_replace(text, "*", global.id)
+		  text = string_replace(text, "#", global.id2)
+		  if show_full_text == true {
+			  draw_text_ext(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Nunito_Sans_Semibold)*0.4, text, 30,(1-mar_x*2)*sprite_width)
+			  global.can_continue = false
+		  }
+		  else {
           draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Nunito_Sans_Semibold)*0.4, text, 0.4,30, global.effect, 25, (1-mar_x*2)*sprite_width)
+		  }
 	}
 	else {
 		text = variable_struct_get(global.scene_data, "textbox")
