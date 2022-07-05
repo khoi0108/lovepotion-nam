@@ -22,7 +22,7 @@ global.choice_data = {}
 // Biến mode
 global.mode = 1
 // Biến âm lượng:
-global.music_volume = 0
+global.music_volume = 25
 // Biến âm lượng:
 global.sound_volume = 25
 // Chỉnh âm thanh

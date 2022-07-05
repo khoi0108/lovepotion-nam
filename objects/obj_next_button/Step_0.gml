@@ -8,7 +8,7 @@ if keyboard_check_pressed(vk_enter) or (mouse_check_button_pressed(mb_left) and 
 	listener_id = FirebaseRealTime().Path("id/"+global.id).Exists()
 	}
 	audio_play_sound(snd_button, 1, 0)
-	alarm[0] = room_speed*0.5
+	alarm[0] = room_speed*0.1
 
 	}
 }

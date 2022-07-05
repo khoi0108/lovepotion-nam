@@ -23,14 +23,12 @@ if global.pause == true {
   // Chỉnh theo click chuột
  if is_between(mouse_x, bar_1.x, bar_1.x + 289) and is_between(mouse_y, bar_1.y, bar_1.y + 23) {
 	 if mouse_check_button(mb_left) {
-		changing = 1
 		global.music_volume = 25*(mouse_x-bar_1.x)/289
 	 }
  }
  
  if is_between(mouse_x, bar_2.x, bar_2.x + 289) and is_between(mouse_y, bar_2.y, bar_2.y + 23) {
 	 if mouse_check_button(mb_left) {
-		 changing = 1
 		 global.sound_volume = 25*(mouse_x-bar_2.x)/289
 	 }
  }

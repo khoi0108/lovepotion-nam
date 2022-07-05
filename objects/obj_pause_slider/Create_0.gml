@@ -1,2 +1,1 @@
-// Biến kích thước
-scale = 0
+image_yscale = 0

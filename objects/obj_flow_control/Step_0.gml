@@ -25,7 +25,7 @@ if global.end_game = true {
 	room_goto(credits)
 }
 
-	if (global.scene_change == true) {
+if (global.scene_change == true) {
 
 	// Thuật toán cộng số
 	if (global.scene % 1 == 0 and global.extra_scene == false) {

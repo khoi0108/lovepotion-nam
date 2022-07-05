@@ -16,7 +16,7 @@ switch (global.scene) {
 		text = "Bạn sẽ nói gì trong tình huống này?"
 	break;
 	case 17:
-		text = "Bạn sẽ nói gì trong tình huống này?"
+		text = "Bạn là người giỏi tự nhiên hay xã hội?"
 	break;
 	case 24:
 		text = "Bạn sẽ cảm thấy thế nào trong tình huống này?"
