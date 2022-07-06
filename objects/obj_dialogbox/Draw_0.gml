@@ -178,23 +178,14 @@ switch (global.scene) {
 }
 
 if global.vis[3] == 1 {
-	if global.mode == 1{
-	     variable_struct_set(global.scene_data, "dialogue", text)
 	     global.can_continue = false
          text = string_replace(text, "*", global.id)
-		 text = string_replace(text, "#", global.id2)
+		 text = string_replace(text, "#", global.partner_name)
 		 if show_full_text == true {
 			  draw_text_ext(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Nunito_Sans_Semibold)*0.4, text, 30, (1-mar_x*2)*sprite_width)
-			  global.can_continue = false
-			  }
+              alarm[0] = room_speed * 3
+         }
 		  else {
           draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + font_get_size(Nunito_Sans_Semibold)*0.4, text, 0.4,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 		  }
-	}
-	else {
-		text = variable_struct_get(global.scene_data, "dialogue")
-		// Viết chữ
-        global.can_continue = false
-        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y, string_replace(text, "*", global.id), 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
-	}
 }

@@ -57,11 +57,11 @@ function draw_text_scrolling(text_x, text_y, text_str, text_spd, text_slp, text_
         
 	            //Checks if the character has been fully incremented.
 	            if (text_ind > _text_prev) && (text_snd != undefined) && audio_exists(text_snd){
-            
+                   if global.pause == 0 {
 	                //Plays the text sound.
 	                audio_stop_sound(text_snd);
 	                audio_play_sound(text_snd, 0, false);
-            
+				    } 
 	            }
         
 	            //Sets the previous value to the char index.

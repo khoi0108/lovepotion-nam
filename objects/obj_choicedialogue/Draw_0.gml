@@ -75,16 +75,6 @@ switch (global.scene) {
 }
 
 if global.vis[0] == 1 {
-	if global.mode == 1{
-	     variable_struct_set(global.choice_data, "dialogue", text)
 	     global.can_continue = false
          draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Nunito_Sans_Semibold)*0.4, text, 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
-	}
-	else {
-		text = variable_struct_get(global.choice_data, "dialogue")
-		// Viết chữ
-        global.can_continue = false
-        draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Nunito_Sans_Semibold)*0.4, text, 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
-	}
 }
-

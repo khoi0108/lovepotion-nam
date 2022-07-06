@@ -5,4 +5,4 @@ state_code = 0
 flicker = 0
 
 // Bắt đầu nhấp nháy sau 25 giây
-alarm[1] = 450
+alarm[1] = 900

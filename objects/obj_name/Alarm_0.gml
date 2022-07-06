@@ -1,10 +1,10 @@
 alarm = 0
 switch(input) {
-	case 0:
+	case false:
 	keyboard_string = ""
-	input = 1
+	input = true
 	break;
-	case 1:
-	input = 0
+	case true:
+	input = false
 	break;
 }

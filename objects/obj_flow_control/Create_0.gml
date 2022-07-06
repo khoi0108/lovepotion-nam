@@ -46,32 +46,3 @@ switch (global.bg) {
 	        change_bg(spr_truonghoc)
 	    break;
      }
-
-// Export ra file
-// Thêm các dữ liệu cơ bản của game
-if global.mode == 1 {
-
-global.scene_data = {
-    "visibility" : global.vis
-} 
-
-if global.vis[0] == 1 {
-	global.choice_data = {}
-	variable_struct_set(global.scene_data, "choice", global.choice_data)
-}
-
-
-// Thêm các dữ liệu cảnh
-variable_struct_set(global.data, string(global.scene)+ "_" + string(global.branch), global.scene_data)
-//export_json("data.json", global.data, json_stringify)
-}
-
-/* if global.mode == 0 {
-	if global.scene == 0 {
-	global.scene_data = variable_struct_get(global.data,  "0_0")
-	}
-	
-	if global.vis[0] == 1 {
-		global.choice_data = variable_struct_get(global.scene_data, "choice")
-	}
-}*/

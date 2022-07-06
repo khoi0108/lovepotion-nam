@@ -2,17 +2,23 @@ if mouse_check_button_pressed(mb_left) and is_touching_mouse(self) {
 	alarm[0] = room_speed * 0.1
 }
 
-if input == 1 {
+if input == true {
 
 if default_pos == true {
 	cursor_pos = string_length(text) + 1
 }
 
 // Hàm nhập
-if keyboard_check_pressed(vk_anykey) && string_length(text)<20 && !keyboard_check_keys([vk_left, vk_right, vk_backspace, vk_delete]){
+if keyboard_check_pressed(vk_anykey) && string_length(text)<15 && !keyboard_check_keys([vk_left, vk_right, vk_backspace, vk_delete]){
+  if !number or is_between(ord(keyboard_string), 48, 57) {
 	text = string_insert(keyboard_string, text, cursor_pos)
 	cursor_pos ++ 
-	keyboard_string = ""
+	keyboard_string = "" 
+  }
+  else {
+	 keyboard_string = ""
+  }
+  
 }
 // Hàm xóa 
 if(keyboard_check(vk_backspace) && delete_timer == 5){
@@ -90,16 +96,25 @@ if wait = 0 {
   }
 }
 
-if input == 0 {
+if input == false {
 	keyboard_string = ""
 	cursor = ""
 }
 
 if room == rm_id {
+	number = true
 	global.id = text
 }
-if room == rm_id2 {
-	global.id2 = text
+else {
+	number = false
+	if room == rm_name {
+	    global.name = text
+    }
+	if room == rm_partner_name {
+	global.partner_name = text
+    }
 }
+
+
 
 

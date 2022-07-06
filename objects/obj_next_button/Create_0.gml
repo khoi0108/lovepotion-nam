@@ -13,14 +13,6 @@ global.branch = 0
 global.bg = 0
 // Biến để xác định xem obj nào sẽ visible trong các cảnh
 global.vis = []
-// Biến dữ liệu
-global.data = {}
-// Biến dự liệu cảnh
-global.scene_data = {}
-// Biến dữ liệu lựa chọn
-global.choice_data = {}
-// Biến mode
-global.mode = 1
 // Biến âm lượng:
 global.music_volume = 25
 // Biến âm lượng:

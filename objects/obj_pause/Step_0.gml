@@ -35,5 +35,4 @@ if global.pause == true {
 } 
 else {
 	 instances_destroy([continue_button, exit_button, bar_1, bar_2])
-    global.can_continue = global.state[1]
 }

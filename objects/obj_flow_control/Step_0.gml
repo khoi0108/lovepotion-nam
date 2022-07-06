@@ -39,10 +39,6 @@ if (global.scene_change == true) {
 			global.scene = ceil(global.scene)
 		}
     }
-	  // Load scene data
-	if global.mode == 0 {
-	    global.scene_data = variable_struct_get(global.data, string(global.scene) + "_" + string(global.branch))
-	}
 	// Set background
 	global.bg = bg_select(global.scene, bg_config)	
     // Set phòng
@@ -53,12 +49,7 @@ if (global.scene_change == true) {
 		 room_goto(layout_2)
     }  
 	// Set vis
-	if global.mode == 0 {
-	global.vis = variable_struct_get(global.scene_data, "vis")
-	}
-	if global.mode == 1 {
-		global.vis = scene_type(global.scene)
-	}
+    global.vis = scene_type(global.scene)
 	
 	switch (global.scene) {
 	

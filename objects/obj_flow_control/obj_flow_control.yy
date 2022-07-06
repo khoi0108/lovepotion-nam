@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_continue",
-    "path": "sprites/spr_continue/spr_continue.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

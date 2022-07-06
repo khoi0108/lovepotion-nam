@@ -151,14 +151,8 @@ switch (global.scene) {
 
 
 if global.vis[4] == 1 {
-	if global.mode == 1{
-	variable_struct_set(global.scene_data, "sprite", spr)
 	sprite_index = spr
-	}
-	else {
-		spr = variable_struct_get(global.scene_data, "sprite")
-		sprite_index = spr
-	}
 }
+
 
 
