@@ -7,7 +7,6 @@ function bg_select(scene, rm_config) {
 	}
 	return rm
 }
-
 function scene_type(scene) {
          type = []
 		 if array_has(scene, scene_types[?"context"]) {
@@ -49,10 +48,9 @@ if (global.scene_change == true) {
     else {
 		 room_goto(layout_2)
     }  
-	// Set tầm nhìn
+	// Set vis
     global.vis = scene_type(global.scene)
 	
-	// TH đặc biệt
 	switch (global.scene) {
 	
 	case 7:

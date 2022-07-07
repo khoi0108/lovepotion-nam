@@ -116,7 +116,7 @@ if global.vis[5] == 1 {
 		  text = string_replace(text, "#", global.partner_name)
 		  if show_full_text == true {
 			  draw_text_ext(x-(1/2 - mar_x)*sprite_width, y + mar_y*sprite_height, text, 30,(1-mar_x*2)*sprite_width)
-		      alarm[0] = room_speed * 3
+		       global.can_continue = true
 		  }
 		  else {
           draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + mar_y*sprite_height, text, 0.4,30, global.effect, 25, (1-mar_x*2)*sprite_width)

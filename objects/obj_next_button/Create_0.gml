@@ -1,4 +1,4 @@
-id_error = 0
+error_id = 0
 // Biến id cảnh - có chức năng xác định cảnh nào sẽ play
 global.scene = 0
 // Biến quyết định xem có chuyển cảnh không

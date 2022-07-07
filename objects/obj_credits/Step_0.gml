@@ -1,3 +1,3 @@
 if alpha <= 1 {
-	alpha += 0.005
+	alpha += 0.05
 }

@@ -1,10 +1,14 @@
 if keyboard_check_pressed(vk_enter) or (mouse_check_button_pressed(mb_left) and is_touching_mouse(self)) {
 	 if obj_name.text == "" {
-		 id_error = 1
+		 error_id = 1
      }
-	 
+	
+	if room == rm_id && string_length(global.id) < 3 {
+		error_id = 3
+	}
+	
 	else {
-	id_error = 0
+	error_id = 0
 	
 	if room == rm_id {
 	listener_id = FirebaseRealTime().Path("id/"+global.id).Exists()

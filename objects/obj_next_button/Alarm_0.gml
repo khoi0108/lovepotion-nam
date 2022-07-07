@@ -1,5 +1,5 @@
 alarm = 0
-if id_error == 0 {
+if error_id == 0 {
 	// Test âm thanh
     audio_stop_all()
 	
