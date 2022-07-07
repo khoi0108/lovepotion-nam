@@ -1,34 +1,4 @@
-lines = [
-"b_A product by Triott da Project",
-"b_Game Developer",
-"n_Đức Minh (lead)",
-"n_Tuấn Nghĩa",
-"n_Trọng Khôi",
-"n_Lê Minh",
-"n_Đăng Khôi",
-"n_Hà Bình",
-"b_Scenario",
-"n_Diệu Anh (lead)",
-"n_Hà Bình",
-"n_Khánh Linh",
-"n_Ngọc Linh",
-"n_Thảo Nguyên",
-"b_UI Artist/Graphics",
-"n_Công Phương (lead)",
-"n_Vĩnh Hà",
-"n_Bảo Anh",
-"n_Hà Anh",
-"n_Lê My",
-"b_UX Designer",
-"n_Công Phương",
-"b_Audio/Sound FX",
-"b_DB manager",
-"n_Trọng Khôi",
-"b_Web Developer",
-"n_Trọng Khôi",
-"b_Mentor",
-"n_Phan Anh",
-]
-
-normal_text_count = 0
-bold_text_count = 0
+alpha = 0
+mul = 1
+x = room_width/2
+y = room_height/2
