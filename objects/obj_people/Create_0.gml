@@ -1,6 +1,4 @@
-// Nhân vật xuất hiện trong game (sprite thay đổi qua các cảnh)
-name = ""
-spr = 0
+// Nhân vật xuất hiện trong game (sprite thay đổi qua các cảnh)spr = 0
 
 visible = global.vis[4]
 
@@ -148,11 +146,7 @@ switch (global.scene) {
 	break;
 	}
 
-
-
 if global.vis[4] == 1 {
 	sprite_index = spr
 }
-
-
 

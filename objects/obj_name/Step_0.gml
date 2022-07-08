@@ -1,4 +1,4 @@
-if mouse_check_button_pressed(mb_left) and is_touching_mouse(self) {
+if check_clicked(self, mb_left) {
 	alarm[0] = room_speed * 0.1
 }
 
@@ -10,7 +10,7 @@ if default_pos == true {
 
 // Hàm nhập
 if keyboard_check_pressed(vk_anykey) && string_length(text)<15 && !keyboard_check_keys([vk_left, vk_right, vk_backspace, vk_delete]){
-  if !number or is_between(ord(keyboard_string), 48, 57) {
+  if !number || is_between(ord(keyboard_string), 48, 57) {
 	text = string_insert(keyboard_string, text, cursor_pos)
 	cursor_pos ++ 
 	keyboard_string = "" 

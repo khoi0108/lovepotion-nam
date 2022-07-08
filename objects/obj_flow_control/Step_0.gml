@@ -28,7 +28,7 @@ if global.end_game = true {
 if (global.scene_change == true) {
 
 	// Thuật toán cộng số
-	if (global.scene % 1 == 0 and global.extra_scene == false) {
+	if (global.scene % 1 == 0 && global.extra_scene == false) {
          global.scene ++
 	}
     else {

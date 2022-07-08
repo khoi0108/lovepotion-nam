@@ -3,7 +3,7 @@ if check_clicked(self, mb_left) {
 	alarm[0] = room_speed*0.1
 }
 
-if position_meeting(mouse_x, mouse_y, obj_start) {
+if is_touching_mouse(self) {
 	sprite_index = spr_start_glow
 	image_xscale = x_scale * 1.1
 	image_yscale = y_scale * 1.1

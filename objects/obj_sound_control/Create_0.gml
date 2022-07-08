@@ -1,5 +1,5 @@
 // Chỉnh giọng nhân vật
-if global.vis[5] == 1 or global.vis[0] == 1 {
+if global.vis[5] == 1 || global.vis[0] == 1 {
 	global.effect = snd_text
 }
 

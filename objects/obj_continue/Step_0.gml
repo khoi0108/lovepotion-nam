@@ -5,7 +5,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))) && g
 }
 }
 
-if flicker == 1 and global.pause == false {
+if flicker == 1 && global.pause == false {
  
  if wait = 0 {
       

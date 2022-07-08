@@ -1,7 +1,8 @@
-draw_set_color(c_white)
-if error_id == 1 {
-	draw_self()
-	if room == rm_id {
+draw_set_color(c_white)draw_self()
+
+if error == 1 {
+	
+    if room == rm_id {
 	    draw_text(obj_name.x, obj_name.y+50, "Lỗi: ID người chơi không được bỏ trống")
 	}
 	if room == rm_name {
@@ -12,15 +13,11 @@ if error_id == 1 {
 	}
 }
 
-if error_id == 2 {
-	draw_self()
+
+if error == 2 {
 	draw_text(obj_name.x, obj_name.y+50, "Lỗi: ID người chơi đã tồn tại trên hệ thống")
 }
-if error_id == 3 {
-	draw_self()
-	draw_text(obj_name.x, obj_name.y+50, "Lỗi: ID người chơi không được có dưới 3 ký tự")
-}
 
-else {
-	draw_self()
+if error == 3 {
+	draw_text(obj_name.x, obj_name.y+50, "Lỗi: ID người chơi không được có dưới 3 ký tự")
 }
