@@ -1,9 +1,8 @@
 global.branch = 0
 
-switch (global.scene) {
-	case 7:	  
-		FirebaseRealTime().Path("id/"+global.id+"/chang-1"+"/1").Set("A") ;
-		break;
+// switch (global.scene) {
+		FirebaseRealTime().Path("id/"+ global.id + path).Set("A")
+/*		break;
 	case 10:
 	    FirebaseRealTime().Path("id/"+global.id+"/chang-1"+"/2").Set("A") ;
 		break;
@@ -64,6 +63,6 @@ switch (global.scene) {
 	case 85:
 	    FirebaseRealTime().Path("id/"+global.id+"/chang-5"+"/4").Set("A") ;
 		break;
-}
+} */
 FirebaseRealTime().ListenerRemoveAll()
 global.scene_change = true

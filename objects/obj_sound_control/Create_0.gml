@@ -12,21 +12,25 @@ if array_equals(global.vis, obj_flow_control.dialogue_scene) {
     }
 }
 
-// theme_map = [[], [], [], []]
-
-theme_map = [[], [[45, 56], [59, 62]], [[26, 30], [44, 44], [57,58], [64, 75], [76, 80], [85,86]], [[81,85]]]
+theme_map = [
+            [], // Cái này chỉ là place holder
+            [[45, 56], [59, 62]], // Các khoảng cảnh bật nhạc lãng mạn
+            [[26, 30], [44, 44], [57,58], [64, 75], [76, 80], [85,86]], // Các khoảng cảnh không nhạc 
+			[[81,85]] // Các khoảng cảnh bật nhạc hồi tưởng
+			]
 
 
 // Selecting the theme
 function theme_select(scene, arr) {
 		  index = 0
+		  
 		  for (i=0; i<array_length(arr); i++) {
-				    for (t=0; t<array_length(arr[i]); t++) {
-						if is_between(scene, arr[i][t][0], arr[i][t][1]) {
-							index = i
-							break;
-						}
-			         }  
+			   for (t=0; t<array_length(arr[i]); t++) {
+				    if is_between(scene, arr[i][t][0], arr[i][t][1]) {
+						index = i
+						break;
+					 }
+			   }  
 		  }
           
 		  switch(index) {

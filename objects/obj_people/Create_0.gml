@@ -1,4 +1,5 @@
 // Nhân vật xuất hiện trong game (sprite thay đổi qua các cảnh)spr = 0
+spr = m_normal
 
 visible = global.vis[4]
 

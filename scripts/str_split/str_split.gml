@@ -1,11 +1,7 @@
-function str_split(str, delimiter){
-	
-	
-	var len = string_length(str);
-	
+function str_split(str, delimiter){	var len = string_length(str);
 	var subStr = "";
 	var arrIndex = 0;
-	var arr;
+	var arr = [];
 	for (var i = 1; i <= len; i++)
 	{
 		var char = string_char_at(str, i);
@@ -32,5 +28,5 @@ function str_split(str, delimiter){
 		{
 			arr[arrIndex] = subStr;
 		}
-	return arr;
+   return arr;
 }

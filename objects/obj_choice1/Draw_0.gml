@@ -74,7 +74,6 @@ switch (global.scene) {
 	break;	
 }
 
-
 if global.vis[0] == 1 {
 	     global.can_continue = false
          draw_text_ext(x-(1/2 - mar_x)*sprite_width, y, text,25,(1-mar_x*2)*sprite_width-50)
