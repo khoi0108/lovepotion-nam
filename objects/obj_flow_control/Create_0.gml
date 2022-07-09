@@ -46,3 +46,7 @@ switch (global.bg) {
 	        change_bg(spr_truonghoc)
 	    break;
      }
+
+// Set cảnh đang hiện trên database
+listener_id = FirebaseRealTime().Path("id/" + global.id + "/current scene").Set(global.scene)
+FirebaseRealTime().ListenerRemove(listener_id)

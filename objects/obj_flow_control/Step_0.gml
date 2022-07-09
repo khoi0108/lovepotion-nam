@@ -12,16 +12,17 @@ function scene_type(scene) {
 		 if array_has(scene, scene_types[?"context"]) {
 			 type = context_scene
 		 }
-		 if array_has(scene, scene_types[?"dialogue"]) {
+		if array_has(scene, scene_types[?"dialogue"]) {
 			 type = dialogue_scene
-		 } 
+		 }
 		 if array_has(scene, scene_types[?"choice"]) {
 			 type = choice_scene
 		 }
+		 
 		 return type;
 }
 
-if global.end_game = true {
+if end_game == true {
 	room_goto(credits)
 }
 
@@ -114,24 +115,23 @@ if (global.scene_change == true) {
 	break;
 	case 86.1:
 	  if global.branch == 2 {
-		  global.end_game = true
+		  end_game = true
 	  }
 	 break;
 	case 86.3:
 	   if global.branch == 0 {
-		   global.end_game = true
+		   end_game = true
 	   }
 	 break;
 	case 86.4:
 	   global.extra_scene = false 
 	break;
 	case 87:
-	    global.end_game = true
+	    end_game = true
 	break;
 		
   }
 }
 
 global.scene_change = false
-
 

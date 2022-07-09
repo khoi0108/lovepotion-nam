@@ -22,7 +22,11 @@ if error == 3 {
 	draw_text(obj_name.x, obj_name.y+50, "Lỗi: ID người chơi không được có dưới 3 ký tự")
 }
 
+if error == 4 {
+	draw_text(obj_name.x, obj_name.y+50, "Lỗi: Cơ sở dữ liệu ghi nhận bạn đã hoàn thành game")
+}
+
 // Báo kết nối thành công
-if room == rm_id && db_check == 1 {
+if room == rm_id && id_exists {
 	draw_text(obj_name.x, obj_name.y+50, "Kết nối cơ sở dữ liệu thành công!")
 }

@@ -1,5 +1,7 @@
 error = 0
-db_check = 0
+id_exists = false
+completion_status = false
+played = false
 // Biến id cảnh - có chức năng xác định cảnh nào sẽ play
 global.scene = 0
 // Biến quyết định xem có chuyển cảnh không
@@ -23,4 +25,4 @@ global.effect = snd_text
 // Chỉnh nhạc nền
 global.theme = snd_maintheme
 // Kết thúc game:
-global.end_game = false
+end_game = false

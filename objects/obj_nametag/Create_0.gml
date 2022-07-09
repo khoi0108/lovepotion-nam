@@ -11,7 +11,7 @@ switch(obj_people.sprite_index) {
 	break;
 	default:
 	if str_split(sprite_get_name(obj_people.sprite_index), "_")[0] == "m" {
-		text = global.id
+		text = global.name
 	}
 	if str_split(sprite_get_name(obj_people.sprite_index), "_")[0] == "f" {
 		text = global.partner_name

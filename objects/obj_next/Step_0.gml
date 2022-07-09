@@ -29,7 +29,7 @@ if keyboard_check_pressed(vk_enter) || check_clicked(self, mb_left) {
 	 }
 	 
 	 if error == 0 {
-	 alarm[0] = room_speed*0.1
+	 alarm[0] = room_speed*0.5
 	 }
 	 
 	 audio_play_sound(snd_button, 1, 0)
