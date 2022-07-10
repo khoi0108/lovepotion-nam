@@ -45,31 +45,31 @@ switch (global.scene) {
 	case 57:
 		text = "Sau khi tìm hiểu thật lâu"
 	break;
-	case 60:
+	case 61:
 		text = "Nhắn tin cho bạn nữ nói tình trạng hiện tại và hẹn một ngày khác"
 	break;
-	case 65:
+	case 66:
 		text = "Cau gắt, tức giận"
 	break;
-	case 68:
+	case 69:
 		text = "Trả lời"
 	break;
-	case 71:
+	case 72:
 		text = "Vẫn sẽ vui vẻ ăn, và nói cho em ấy rằng bạn không thích những món này sau bữa ăn"
 	break;
-	case 75:
+	case 76:
 		text = "Còn chứ nhưng tính khí như vậy không hợp với tôi chút nào"
 	break;
-	case 77:
+	case 78:
 		text = "Nhẹ nhàng, tình cảm"
 	break;
-	case 79:
+	case 80:
 		text = "Còn chứ, kỉ niệm đẹp lắm"
 	break;
-	case 80:
+	case 81:
 		text = "Bỏ qua quá khứ và đến với nhau vì còn tình cảm"
 	break;
-	case 85:
+	case 86:
 		text = "Tiếp tục làm bạn bè"
 	break;	
 }

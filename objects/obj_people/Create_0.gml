@@ -94,55 +94,55 @@ switch (global.scene) {
 	case 54:
 	    spr= f_ecstatic
 	break;
-	case 59:
+	case 60:
 	    spr = f_normal
 	break;
-	case 61:
+	case 62:
 	    spr = m_lookingdown
 	break;
-	case 64:
+	case 65:
 	    spr = m_annoyed
 	break;
-	case 67:
+	case 68:
 	    spr = f_judgmental
 	break;
-	case 68.1:
+	case 69.1:
 	    spr = m_annoyed
 	break;
-	case 68.2:
+	case 69.2:
 	    spr = f_judgmental
 	break;
-	case 68.3:
+	case 69.3:
 	    spr= m_annoyed
 	break;
-	case 73:
-	    spr= f_normal
-	break;
 	case 74:
-	    spr= m_lookingdown
-	break;
-	case 82:
 	    spr= f_judgmental
+	break;
+	case 75:
+	    spr= m_lookingdown
 	break;
 	case 83:
-	    spr= m_lookingdown
-	break;
-	case 84:
 	    spr= f_judgmental
 	break;
-	case 86:
+	case 84:
+	    spr= m_lookingdown
+	break;
+	case 85:
+	    spr= f_judgmental
+	break;
+	case 87:
 	    spr= m_talking
 	break;
-	case 86.1:
+	case 87.1:
 	    spr = f_normal
 	break;
-	case 86.2:
+	case 87.2:
 	    spr = m_talking
 	break;
-	case 86.3:
+	case 87.3:
 	    spr = f_normal
 	break;
-	case 86.4:
+	case 87.4:
 	    spr = m_talking
 	break;
 	}

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1919,
+  "bbox_right": 619,
   "bbox_top": 0,
-  "bbox_bottom": 1079,
+  "bbox_bottom": 348,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1920,
-  "height": 1080,
+  "width": 620,
+  "height": 349,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1cda3abd-c50d-4bb2-8bb4-b06a0f6d7316","path":"sprites/spr_duong/spr_duong.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1cda3abd-c50d-4bb2-8bb4-b06a0f6d7316","path":"sprites/spr_duong/spr_duong.yy",},"LayerId":{"name":"fcda427a-f849-45a9-b9ef-f24a63fd1920","path":"sprites/spr_duong/spr_duong.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_duong","path":"sprites/spr_duong/spr_duong.yy",},"resourceVersion":"1.0","name":"1cda3abd-c50d-4bb2-8bb4-b06a0f6d7316","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4967f875-99a6-4ff9-8922-4ec64550edcb","path":"sprites/spr_cafe/spr_cafe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4967f875-99a6-4ff9-8922-4ec64550edcb","path":"sprites/spr_cafe/spr_cafe.yy",},"LayerId":{"name":"b92a7689-71b5-4ac4-9c4f-09a7daa41aa3","path":"sprites/spr_cafe/spr_cafe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cafe","path":"sprites/spr_cafe/spr_cafe.yy",},"resourceVersion":"1.0","name":"4967f875-99a6-4ff9-8922-4ec64550edcb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_duong","path":"sprites/spr_duong/spr_duong.yy",},
+    "spriteId": {"name":"spr_cafe","path":"sprites/spr_cafe/spr_cafe.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"47b29e98-92df-443d-8566-471a1fa672b4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cda3abd-c50d-4bb2-8bb4-b06a0f6d7316","path":"sprites/spr_duong/spr_duong.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"416358da-7a79-4532-b7e1-f02d0f61b878","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4967f875-99a6-4ff9-8922-4ec64550edcb","path":"sprites/spr_cafe/spr_cafe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_duong","path":"sprites/spr_duong/spr_duong.yy",},
+    "parent": {"name":"spr_cafe","path":"sprites/spr_cafe/spr_cafe.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_duong",
+    "name": "spr_cafe",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fcda427a-f849-45a9-b9ef-f24a63fd1920","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b92a7689-71b5-4ac4-9c4f-09a7daa41aa3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/backgrounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_duong",
+  "name": "spr_cafe",
   "tags": [],
   "resourceType": "GMSprite",
 }

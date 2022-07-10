@@ -45,31 +45,31 @@ switch (global.scene) {
 	case 57:
 		text = "Cần bao lâu để bạn bắt đầu một mối quan hệ?"
 	break;
-	case 60:
+	case 61:
 		text = "Khi buổi date đã được lên, nhưng hôm đó bạn bị mệt bạn sẽ giải quyết như thế nào?"
 	break;
-	case 65:
+	case 66:
 		text = "Khi bị rơi vào tình huống, bạn phải uống một loại thức uống không hợp khẩu vị và hơn cả trong ngày bạn khó tính, bạn sẽ cảm xúc như nào?"
 	break;
-	case 68:
+	case 69:
 		text = "Bạn sẽ làm gì trong tình huống này?"
 	break;
-	case 71:
+	case 72:
 		text = "Khi trước mặt toàn là những món không đúng khẩu vị nhưng do người yêu gọi, bạn sẽ làm gì?"
 	break;
-	case 75:
+	case 76:
 		text = "Bạn còn tình cảm với đối phương?"
 	break;
-	case 77:
+	case 78:
 		text = "Với bạn, đối phương là người như nào?"
 	break;
-	case 79:
+	case 80:
 		text = "Bạn còn vương vấn chút kỉ niệm nào với đối phương"
 	break;
-	case 80:
+	case 81:
 		text = "Nếu có cơ hội một lần nữa, bạn và đối phương có suy nghĩ lại?"
 	break;
-	case 85:
+	case 86:
 		text = "Bạn sẽ làm gì trong tình huống này?"
 	break;
 }

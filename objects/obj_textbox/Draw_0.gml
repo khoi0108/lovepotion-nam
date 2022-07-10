@@ -71,37 +71,39 @@ switch (global.scene) {
 		text = @"Sau khi thổ lộ xong, cả hai nhìn nhau ngượng ngùng nhưng cũng thống nhất với nhau rằng trước khi chính thức hẹn hò, họ sẽ tìm hiểu nhau kỹ lại trước, thời hạn á hả? 2 tháng."
 	break;
 	case 58:
-		text = @"Vậy là đã được hai tháng kể từ ngày hai người tỏ tình với nhau. Bạn và cô ấy đã trải qua vô vàn kỷ niệm, vui có buồn có, nhưng không được kể với người khác về những kỷ niệm ấy thật là đáng tiếc. Hai bạn đã đồng ý với nhau rằng sẽ giữ mối quan hệ này bí mật, nên cũng chẳng còn cách nào cả, ai bảo bố mẹ bạn khó tính tới vậy làm gì? Nhưng bạn vẫn tin tưởng người yêu mình, và bạn tin rằng cô ấy  cũng vậy. 
-Hôm nay là buổi hẹn hò thường ngày mà bạn và cô ấy đã lên kế hoạch trước. Bạn đứng đợi cô ấy ở đầu ngõ, tâm trạng của bạn hôm nay cũng có hơi mệt mỏi do áp lực  thi cử cuối cấp. Nên trông bạn có vẻ bức bối một chút. Đến giờ thì cô ấy đã tới nơi."
+		text = @"Vậy là đã được hai tháng kể từ ngày hai người tỏ tình với nhau. Bạn và cô ấy đã trải qua vô vàn kỷ niệm, vui có buồn có, nhưng không được kể với người khác về những kỷ niệm ấy thật là đáng tiếc. Hai bạn đã đồng ý với nhau rằng sẽ giữ mối quan hệ này bí mật, nên cũng chẳng còn cách nào cả, ai bảo bố mẹ bạn khó tính tới vậy làm gì? Nhưng bạn vẫn tin tưởng người yêu mình, và bạn tin rằng cô ấy  cũng vậy."
 	break;
-	case 62:
-		text = @"Sau đó cô ấy dù có một chút khó hiểu nhưng cũng đã leo lên xe và cùng bạn đi chơi. Suốt một quãng đường vì bạn khá mệt mỏi nên đã lờ đi những lời cô ấy nói."
+	case 59:
+		text = @"Hôm nay là buổi hẹn hò thường ngày mà bạn và cô ấy đã lên kế hoạch trước. Bạn đứng đợi cô ấy ở đầu ngõ, tâm trạng của bạn hôm nay cũng có hơi mệt mỏi do áp lực  thi cử cuối cấp. Nên trông bạn có vẻ bức bối một chút. Đến giờ thì cô ấy đã tới nơi."
 	break;
 	case 63:
+		text = @"Sau đó cô ấy dù có một chút khó hiểu nhưng cũng đã leo lên xe và cùng bạn đi chơi. Suốt một quãng đường vì bạn khá mệt mỏi nên đã lờ đi những lời cô ấy nói."
+	break;
+	case 64:
 		text = @"Sau đó cả hai tới quán cà phê thân thuộc mà thường ngày anh ấy vẫn dắt bạn tới. Cô ấy đã gọi cho cả hai 2 ly bạc xỉu."
 	break;
-	case 66:
-		text = @"cả hai rơi vào bầu không khí khá gượng gạo, vì chưa có sự chuẩn bị gì nên bạn cũng không biết tiếp theo phải làm gì và làm cách nào để xoá tan bầu không khí này."
-	break;
-	case 69:
-		text = @"Sau khi tới nhà ăn bạn khá uể oải và cũng có một chút bực tức vì tính trẻ con của cô ấy, nên đã hơi gằn giọng khi cô ấy cố gắng hỏi bạn một số câu hỏi. Không khí căng thẳng nên bạn để cô ấy lại gọi món tuỳ ý. Còn bạn đi vệ sinh"
+	case 67:
+		text = @"Cả hai rơi vào bầu không khí khá gượng gạo, vì chưa có sự chuẩn bị gì nên bạn cũng không biết tiếp theo phải làm gì và làm cách nào để xoá tan bầu không khí này."
 	break;
 	case 70:
+		text = @"Sau khi tới nhà ăn bạn khá uể oải và cũng có một chút bực tức vì tính trẻ con của cô ấy, nên đã hơi gằn giọng khi cô ấy cố gắng hỏi bạn một số câu hỏi. Không khí căng thẳng nên bạn để cô ấy lại gọi món tuỳ ý, còn bạn thì đi vệ sinh."
+	break;
+	case 71:
 		text = @"Sau khi quay lại bạn thấy cô ấy gọi những món không đúng khẩu vị của mình"
 	break;
-	case 72:
+	case 73:
 		text = @" Sau đó cô ấy vì đã không chịu nổi và cảm thấy bầu không khí quá chán chường nên quyết định nói hết ra cảm xúc. Bạn đã đề nghị chia tay, có vẻ như vì cũng chịu quá đủ nên cô ấy cũng dứt lời mà quyết định chia tay với bạn."
 	break;
-	case 76:
+	case 77:
 		text = @" Trải qua nhiều sóng gió như vậy, dẫu giữa hai người nói lời chia tay là thật. Vậy nhưng những thứ để cùng nhìn ngắm phía trước lại bao la vô cùng. Con đường của hai bạn đã tới những hồi kết ta tới lúc tình duyên của cả hai cùng  mất. Hôm nay là một ngày đi học lại của 1 kỳ học mới,đã 1 tháng kể từ lúc hai bạn nói lời chia tay với nhau. Trời vẫn ảm đảm như vậy. Bạn đi ngang qua lớp của cô ấy, nơi mà cả hai từng tạo nhiều kỷ niệm với nhau"
 	break;
-	case 78:
+	case 79:
 		text = @"Cứ như vậy những dòng hồi tưởng giữa cả hai ùa về, hồi tưởng lại những khoảnh khắc trẻ con của cô ấy, những lúc cô ấy giận dỗi bạn, mỗi khi bạn trêu cô ấy. Những đợt cảm xúc trào về liên tục như vậy khiến bạn có một chút nghẹn ngào"
 	break;
-	case 81:
+	case 82:
 		text = @"những bước chân ngày vang và lớn hơn, tiếng bước chân này thật quen thuộc.À là cô ấy,đúng là cô ấy thật rồi. Ngước lên trên nhìn vào đôi mắt quen thuộc có phần tinh nghịch ấy. Và rồi những cuộc trò chuyện rất quen thuộc của cả hai người đã diễn ra"
 	break;
-	case 86:
+	case 87:
 	    if global.branch == 2 {
 		text = @"Bạn quay đi và đi một mạch xa khuất từ vị trí cô ấy đang đứng, không một lời từ biệt bạn cắt đứt liên lạc với cô ấy. Tiếp tục cuộc sống mà không có cô ấy bạn cũng không vương vấn gì nhiều."
 		}

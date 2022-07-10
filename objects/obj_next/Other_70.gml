@@ -26,3 +26,14 @@ if (async_load[? "type"] == "FirebaseRealTime_Exists") {
      }
   }
 }
+
+if (async_load[? "type"] == "FirebaseRealTime_Read") { 
+  if async_load[? "status"] == 200 {	
+	  if async_load[? "listener"] == played_check {
+		  if async_load[? "value"] {
+			  current_scene = async_load[? "value"]
+		  }
+	  }
+  }
+}
+		 

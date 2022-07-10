@@ -22,7 +22,7 @@ function scene_type(scene) {
 		 return type;
 }
 
-if end_game == true {
+if global.end_game == true {
 	room_goto(credits)
 }
 
@@ -76,34 +76,34 @@ if (global.scene_change == true) {
 	    global.vis = [1, 1, 1, 0, 1, 0, 1, 1]
 	break;
 	
-	case 60:
+	case 61:
 	    global.vis = [1, 1, 1, 0, 1, 0, 1, 0]
 	break;
 	
-	case 68:
+	case 69:
 		global.extra_scene = true
 	break;
 	
-	case 68.1:
+	case 69.1:
 		 if (global.branch == 1) {
 			 global.branch = 0
-			 global.scene = 69
+			 global.scene = 70
 			 global.vis = context_scene
 		 }
 	break;
-	case 68.3:
+	case 69.3:
 		global.extra_scene = false
 	break;
 	
-	case 77:
+	case 78:
 	    global.vis = [1, 1, 1, 0, 1, 0, 1, 0]
 	break;
 	
-	case 85:
+	case 86:
 	    global.vis = [1, 1, 1, 0, 1, 0, 1, 0]
 	break;
     
-	case 86:
+	case 87:
 	    switch(global.branch) {
 		case 2:
 		global.vis = context_scene
@@ -113,21 +113,21 @@ if (global.scene_change == true) {
 		} 
 		global.extra_scene = true
 	break;
-	case 86.1:
+	case 87.1:
 	  if global.branch == 2 {
-		  end_game = true
+		  global.end_game = true
 	  }
 	 break;
-	case 86.3:
+	case 87.3:
 	   if global.branch == 0 {
-		   end_game = true
+		   global.end_game = true
 	   }
 	 break;
-	case 86.4:
+	case 87.4:
 	   global.extra_scene = false 
 	break;
-	case 87:
-	    end_game = true
+	case 88:
+	    global.end_game = true
 	break;
 		
   }

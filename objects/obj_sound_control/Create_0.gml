@@ -14,11 +14,10 @@ if array_equals(global.vis, obj_flow_control.dialogue_scene) {
 
 theme_map = [
             [], // Cái này chỉ là place holder
-            [[45, 56], [59, 62]], // Các khoảng cảnh bật nhạc lãng mạn
-            [[26, 30], [44, 44], [57,58], [64, 75], [76, 80], [85,86]], // Các khoảng cảnh không nhạc 
-			[[81,85]] // Các khoảng cảnh bật nhạc hồi tưởng
+            [[45, 56]], // Các khoảng cảnh bật nhạc lãng mạn
+            [[26, 30], [44, 44], [57,58], [65, 76], [77, 81], [85,86]], // Các khoảng cảnh không nhạc 
+			[[81,86]] // Các khoảng cảnh bật nhạc hồi tưởng
 			]
-
 
 // Selecting the theme
 function theme_select(scene, arr) {
@@ -53,5 +52,5 @@ theme_select(global.scene, theme_map)
 
 if !audio_is_playing(global.theme) {
 audio_stop_all()
-audio_play_sound(global.theme, 1, true)
+audio_play_sound(global.theme, 0, true)
 }

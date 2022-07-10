@@ -1,7 +1,8 @@
 error = 0
 id_exists = false
 completion_status = false
-played = false
+current_scene = 0
+
 // Biến id cảnh - có chức năng xác định cảnh nào sẽ play
 global.scene = 0
 // Biến quyết định xem có chuyển cảnh không
@@ -15,7 +16,7 @@ global.branch = 0
 // Biến id phòng để xác định sẽ đi đến phòng nào sau mỗi cảnh
 global.bg = 0
 // Biến để xác định xem obj nào sẽ visible trong các cảnh
-global.vis = []
+global.vis = [0, 0, 0, 0, 0, 1, 0, 0]
 // Biến âm lượng:
 global.music_volume = 25
 // Biến âm lượng:
@@ -25,4 +26,4 @@ global.effect = snd_text
 // Chỉnh nhạc nền
 global.theme = snd_maintheme
 // Kết thúc game:
-end_game = false
+global.end_game = false

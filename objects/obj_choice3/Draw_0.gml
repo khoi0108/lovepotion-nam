@@ -15,13 +15,13 @@ switch (global.scene) {
     case 48:
 		text = "Bối rối, lo lắng không biết phải làm gì"
 	break;
-    case 60:
+    case 61:
 		text = "Cả hai ở nhà video call với nhau"
 	break;
-    case 77:
+    case 78:
 		text = "Lạnh lùng, khó gần"
 	break;
-	case 85:
+	case 86:
 		text = "Không nói gì cả, cắt đứt liên lạc"
 	break;
 }

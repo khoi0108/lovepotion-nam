@@ -35,31 +35,31 @@ switch (global.scene) {
 	case 57:
 	    path = "/chang-3/5"
 		break;
-	case 60:
+	case 61:
 	    path = "/chang-4/1"
 		break;
-	case 65:
+	case 66:
 	    path = "/chang-4/2"
 		break;
-	case 68:
+	case 69:
 	    path = "/chang-4/3"
 		break;
-	case 71:
+	case 72:
 	    path = "/chang-4/4"
 		break;
-	case 75:
+	case 76:
 	    path = "/chang-4/5"
 		break;
-	case 77:
+	case 78:
 	    path = "/chang-5/1"
 		break;
-	case 79:
+	case 80:
 	    path = "/chang-5/2"
 		break;
-	case 80:
+	case 81:
 	    path = "/chang-5/3"
 		break;
-	case 85:
+	case 86:
 	    path = "/chang-5/4"
 		break;
 }
