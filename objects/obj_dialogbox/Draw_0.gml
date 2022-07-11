@@ -186,6 +186,6 @@ if global.vis[3] == 1 {
               global.can_continue = true
          }
 		  else {
-          draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + 25, text, 0.4,30, global.effect, 25, (1-mar_x*2)*sprite_width)
+          draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + 25, text, 0.3, 30, global.effect, 25, (1-mar_x*2)*sprite_width)
 		  }
 }

@@ -22,7 +22,7 @@ if(delete_timer!=2){
 }
 
 // Nhan control
-if keyboard_check_pressed(vk_control) {
+/*if keyboard_check_pressed(vk_control) {
 	global.scene = ceil(scene_choice-1)
 	global.scene_change = true
-}
+}*/

@@ -76,5 +76,5 @@ switch (global.scene) {
 
 if global.vis[0] == 1 {
 	     global.can_continue = false
-         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y - font_get_size(Nunito_Sans_Semibold)*0.4, text, 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
+         draw_text_scrolling(x-(1/2 - mar_x)*sprite_width, y + 15, text, 0.3,30, global.effect, 25, (1-mar_x*2)*sprite_width)
 }

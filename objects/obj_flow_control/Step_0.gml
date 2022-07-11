@@ -86,11 +86,14 @@ if (global.scene_change == true) {
 	
 	case 69.1:
 		 if (global.branch == 1) {
+			 global.extra_scene = false
 			 global.branch = 0
+			 global.bg = 8
 			 global.scene = 70
 			 global.vis = context_scene
 		 }
 	break;
+	
 	case 69.3:
 		global.extra_scene = false
 	break;
@@ -129,8 +132,9 @@ if (global.scene_change == true) {
 	case 88:
 	    global.end_game = true
 	break;
-		
+	
   }
+  show_debug_message(global.scene)
 }
 
 global.scene_change = false
