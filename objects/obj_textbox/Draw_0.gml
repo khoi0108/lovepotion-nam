@@ -53,7 +53,7 @@ switch (global.scene) {
 		text = @"Công việc ở trường diễn ra khá muộn, do là ngày trước khi nghỉ lễ. Bạn tan trường lúc 5h và bộ phim thì diễn ra vào lúc 5h15. Bạn gặp # rồi bạn đèo cô ấy đi tới thẳng rạp xem phim"
 	break;
 	case 39:
-		text = @"cả hai bạn vừa tới rạp chiếu phim là lúc bộ phim đã được bắt đầu"
+		text = @"Cả hai bạn vừa tới rạp chiếu phim là lúc bộ phim đã được bắt đầu"
 	break;
 	case 40:
 		text = @"Sau khi vào tới rạp chiếu phim, bạn cùng cô ấy ngồi vào vị trí đã đặt trước"
@@ -71,7 +71,7 @@ switch (global.scene) {
 		text = @"Sau khi thổ lộ xong, cả hai nhìn nhau ngượng ngùng nhưng cũng thống nhất với nhau rằng trước khi chính thức hẹn hò, họ sẽ tìm hiểu nhau kỹ lại trước, thời hạn á hả? 2 tháng."
 	break;
 	case 58:
-		text = @"Vậy là đã được hai tháng kể từ ngày hai người tỏ tình với nhau. Bạn và cô ấy đã trải qua vô vàn kỷ niệm, vui có buồn có, nhưng không được kể với người khác về những kỷ niệm ấy thật là đáng tiếc. Hai bạn đã đồng ý với nhau rằng sẽ giữ mối quan hệ này bí mật, nên cũng chẳng còn cách nào cả, ai bảo bố mẹ bạn khó tính tới vậy làm gì? Nhưng bạn vẫn tin tưởng người yêu mình, và bạn tin rằng cô ấy  cũng vậy."
+		text = @"Vậy là đã được hai tháng kể từ ngày hai người tỏ tình với nhau. Bạn và cô ấy đã trải qua vô vàn kỷ niệm, vui có buồn có, nhưng không được kể với người khác về những kỷ niệm ấy thật là đáng tiếc. Hai bạn đã đồng ý với nhau rằng sẽ giữ mối quan hệ này bí mật, nên cũng chẳng còn cách nào cả, ai bảo bố mẹ bạn khó tính tới vậy làm gì? Nhưng bạn vẫn tin tưởng người yêu mình, và bạn tin rằng cô ấy cũng vậy."
 	break;
 	case 59:
 		text = @"Hôm nay là buổi hẹn hò thường ngày mà bạn và cô ấy đã lên kế hoạch trước. Bạn đứng đợi cô ấy ở đầu ngõ, tâm trạng của bạn hôm nay cũng có hơi mệt mỏi do áp lực  thi cử cuối cấp. Nên trông bạn có vẻ bức bối một chút. Đến giờ thì cô ấy đã tới nơi."
@@ -101,7 +101,7 @@ switch (global.scene) {
 		text = @"Cứ như vậy những dòng hồi tưởng giữa cả hai ùa về, hồi tưởng lại những khoảnh khắc trẻ con của cô ấy, những lúc cô ấy giận dỗi bạn, mỗi khi bạn trêu cô ấy. Những đợt cảm xúc trào về liên tục như vậy khiến bạn có một chút nghẹn ngào"
 	break;
 	case 82:
-		text = @"những bước chân ngày vang và lớn hơn, tiếng bước chân này thật quen thuộc.À là cô ấy,đúng là cô ấy thật rồi. Ngước lên trên nhìn vào đôi mắt quen thuộc có phần tinh nghịch ấy. Và rồi những cuộc trò chuyện rất quen thuộc của cả hai người đã diễn ra"
+		text = @"Những bước chân ngày vang và lớn hơn, tiếng bước chân này thật quen thuộc. À là cô ấy,đúng là cô ấy thật rồi. Ngước lên trên nhìn vào đôi mắt quen thuộc có phần tinh nghịch ấy. Và rồi những cuộc trò chuyện rất quen thuộc của cả hai người đã diễn ra"
 	break;
 	case 87:
 	    if global.branch == 2 {

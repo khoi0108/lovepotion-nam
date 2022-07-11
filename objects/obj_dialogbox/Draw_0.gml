@@ -96,16 +96,16 @@ switch (global.scene) {
 		text = "Dạ anh nói đi"   
 	break;
 	case 53:
-		text = "Thật ra anh thích em,anh cảm thấy em là một cô gái tuy có chút mít ướt nhưng cũng mạnh mẽ và cá tính rất nhiều. Anh hy vọng em cho mình một cơ hội để có thể trở thành người che chở cho em"   
+		text = "Thật ra anh thích em, anh cảm thấy em là một cô gái tuy có chút mít ướt nhưng cũng mạnh mẽ và cá tính rất nhiều. Anh hy vọng em cho mình một cơ hội để có thể trở thành người che chở cho em"   
 	break;
 	case 54:
-		text = " Em cũng thích anh nhiều lắm, kết thúc sự độc thân của em nhé ><"   
+		text = "Em cũng thích anh nhiều lắm, kết thúc sự độc thân của em nhé ><"   
 	break;
 	case 60:
 		text = "Hôm nay mình đi đâu anh nhỉ?"   
 	break;
 	case 62:
-		text = "Đi đâu cũng được"   
+		text = "Đi đâu cũng được"   
 	break;
 	case 65:
 		text = "Đắng quá đi mất! Ai bảo em anh thích uống bạc xỉu vậy?! Chị ơi, cho em một latte nhiều sữa với ạ!"   
@@ -132,10 +132,10 @@ switch (global.scene) {
 		text = "Chào anh, không biết dạo này anh có còn không thích uống những thứ đắng không nhỉ"   
 	break;
 	case 84:
-		text = "Thì ra em còn nhớ những sở thích như vậy à,anh vẫn như vậy thôi. Còn em thì sao"   
+		text = "Thì ra em còn nhớ những sở thích như vậy à, anh vẫn như vậy thôi. Còn em thì sao?"   
 	break;
 	case 85:
-		text = "Nghe hơi sáo rỗng nhỉ, thế nhưng có lẽ em vẫn ổn.Ít làm nũng hơn và nghe lời bố mẹ hơn đôi chút. Có lẽ hai chúng ta thật sự đến đây là kết thúc, cảm ơn anh vì quãng thời gian vừa qua.	"   
+		text = "Nghe hơi sáo rỗng nhỉ, thế nhưng có lẽ em vẫn ổn. Ít làm nũng hơn và nghe lời bố mẹ hơn đôi chút. Có lẽ hai chúng ta thật sự đến đây là kết thúc, cảm ơn anh vì quãng thời gian vừa qua.	"   
 	break;
 	case 87:
 		if global.branch == 0 {

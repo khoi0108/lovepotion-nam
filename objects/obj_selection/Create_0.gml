@@ -15,6 +15,6 @@ if global.vis[7] == 1 {
 }
 
 // Ẩn đi trừ khi là cảnh lựa chọn
-if global.vis[0] != 1 {
-	visible = 0
+if global.vis[0] == 1 {
+	global.branch = 1
 }
