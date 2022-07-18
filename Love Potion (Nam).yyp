@@ -208,7 +208,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},
-    {"roomId":{"name":"rm_id","path":"rooms/rm_id/rm_id.yy",},},
     {"roomId":{"name":"rm_name","path":"rooms/rm_name/rm_name.yy",},},
     {"roomId":{"name":"rm_partner_name","path":"rooms/rm_partner_name/rm_partner_name.yy",},},
     {"roomId":{"name":"layout_1","path":"rooms/layout_1/layout_1.yy",},},
@@ -216,6 +215,7 @@
     {"roomId":{"name":"credits","path":"rooms/credits/credits.yy",},},
     {"roomId":{"name":"Room_FirebaseRealTime","path":"rooms/Room_FirebaseRealTime/Room_FirebaseRealTime.yy",},},
     {"roomId":{"name":"Room_FirebaseRealTime_Query","path":"rooms/Room_FirebaseRealTime_Query/Room_FirebaseRealTime_Query.yy",},},
+    {"roomId":{"name":"rm_id","path":"rooms/rm_id/rm_id.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":2,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

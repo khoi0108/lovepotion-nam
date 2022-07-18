@@ -2,10 +2,12 @@
 selected_choice = obj_choice1
 max_choice = 1
 select_animation = 0
-
+// Half sprite
+half_w = obj_choice1.sprite_width/2
+half_h = obj_choice1.sprite_height/2
+// 
 mar_x = selected_choice.sprite_width*1/160
 mar_y = selected_choice.sprite_height*1/40
-
 
 if global.vis[6] == 1 {
 	max_choice = 2

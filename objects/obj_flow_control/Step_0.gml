@@ -134,7 +134,6 @@ if (global.scene_change == true) {
 	break;
 	
   }
-  show_debug_message(global.scene)
 }
 
 global.scene_change = false
